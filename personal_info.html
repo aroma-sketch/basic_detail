@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> basic detail page</title>
+    <link rel="stylesheet" href="personal_info.css">
+  </head>
+  <body>
+   
+    <form class="container" action="index.html" method="post">
+
+      <h1 class="heading"><u>PERSONAL INFO</u></h1>
+      <hr>
+        <legend> DETAILS:</legend>
+
+      <fieldset>
+      <p>
+        FIRST  NAME:* <input type="text" name="first="  value="" required>
+      </p>
+      <p>
+        LAST NAME:  <input type="text" name="last name=" value="">
+      </P>
+      </fieldset>
+
+    <fieldset>
+      <P>
+        GENDER:* 
+     <input type="radio" name="gender" value=""> MALE 
+       <input type="radio" name="gender" value=""> FEMALE 
+      <input type="radio" name="gender" value="" required> OTHERS
+    </P>
+    </fieldset>
+
+    <fieldset>
+    <P>FILE : <input type="file" name="" value=""></P>
+    </fieldset>
+
+
+    <fieldset>
+      ORIGIN:
+    <select
+  name="card_type" id="card_type">
+    <option value="">---select origin---</option>
+      <option value="usa">usa</option>
+      <option value="india"> india</option>
+      <option value="other">other</option>
+    </select>
+    </fieldset>
+
+    <fieldset>
+      <p>ADDRESS:  <textarea name" rows="8" cols="80"></textarea></p>
+       </fieldset>
+
+<fieldset>
+    <P> EMAIL ID:* <input type="email" name="" 
+       value="" required></P>
+        <P> PHONE NO:* <input type="number" name="" value="" required></P>
+        <p>BIRTHDATE :*<input type="date" name="birthdate" id="birthdate" required></p>
+</fieldset>
+
+  <P> <input type="checkbox" name="" value=""> <u>I ACCEPT ALL THE TERMS AND CONDITION*</u></P>
+<hr>
+      <input type="submit" value="CONFIRM">
+    <input type="reset"  value="RESET">
+<hr>
+
+        </form>
+  </body>
+</html>
