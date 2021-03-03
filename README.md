@@ -1,2 +1,2 @@
 # basic_detail
-a basic detail form
+a basic personal detail form.
