@@ -7,12 +7,12 @@ body{
     margin: 50px;
     padding: 10px;
     border: 5px dotted rgb(91, 19, 119) ;
-    color: rgba(78, 17, 30, 0.904);
+    color: rgba(24, 2, 6, 0.904);
  
 }
 .container
 {
-    background-color: #9ba09bb4;
+    background-color: rgba(117,102,102);
     padding: 5px 10px ;
     border:  5px double rgb(71, 34, 71);
     border-radius: 10px;
